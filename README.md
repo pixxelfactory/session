@@ -1,15 +1,9 @@
 # PHP Session library
 
-[![Latest Stable Version](https://poser.pugx.org/josantonius/session/v/stable)](https://packagist.org/packages/josantonius/session)
-[![License](https://poser.pugx.org/josantonius/session/license)](LICENSE)
-[![Total Downloads](https://poser.pugx.org/josantonius/session/downloads)](https://packagist.org/packages/josantonius/session)
-[![CI](https://github.com/josantonius/php-session/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/josantonius/php-session/actions/workflows/ci.yml)
-[![CodeCov](https://codecov.io/gh/josantonius/php-session/branch/master/graph/badge.svg)](https://codecov.io/gh/josantonius/php-session)
-[![PSR1](https://img.shields.io/badge/PSR-1-f57046.svg)](https://www.php-fig.org/psr/psr-1/)
-[![PSR4](https://img.shields.io/badge/PSR-4-9b59b6.svg)](https://www.php-fig.org/psr/psr-4/)
-[![PSR12](https://img.shields.io/badge/PSR-12-1abc9c.svg)](https://www.php-fig.org/psr/psr-12/)
+A fork from the great library from josantonius, check him out here:
+https://github.com/josantonius/php-session
 
-**Translations**: [Español](.github/lang/es-ES/README.md)
+Did a fork to have our namespace across our own libraries and his.
 
 PHP library for handling sessions.
 
@@ -45,20 +39,20 @@ The preferred way to install this extension is through [Composer](http://getcomp
 To install **PHP Session library**, simply:
 
 ```console
-composer require josantonius/session
+composer require pixxel/session
 ```
 
 The previous command will only install the necessary files,
 if you prefer to **download the entire source code** you can use:
 
 ```console
-composer require josantonius/session --prefer-source
+composer require pixxel/session --prefer-source
 ```
 
 You can also **clone the complete repository** with Git:
 
 ```console
-git clone https://github.com/josantonius/php-session.git
+git clone https://github.com/pixxelfactory/session.git
 ```
 
 ## Available Methods
@@ -231,7 +225,7 @@ $session->destroy();
 To use this library with **Composer**:
 
 ```php
-use Josantonius\Session\Session;
+use Pixxel\Session;
 
 $session = new Session();
 ```
@@ -239,7 +233,7 @@ $session = new Session();
 Or instead you can use a facade to access the methods statically:
 
 ```php
-use Josantonius\Session\Facades\Session;
+use Pixxel\Facades\Session;
 ```
 
 ## Usage
@@ -526,11 +520,11 @@ Session::destroy();
 To run [tests](tests) you just need [composer](http://getcomposer.org/download/) and to execute the following:
 
 ```console
-git clone https://github.com/josantonius/php-session.git
+git clone https://github.com/pixxelfactory/session.git
 ```
 
 ```console
-cd php-session
+cd session
 ```
 
 ```console
@@ -575,19 +569,19 @@ composer tests
 ## Changelog
 
 Detailed changes for each release are documented in the
-[release notes](https://github.com/josantonius/php-session/releases).
+[release notes](https://github.com/pixxelfactory/session/releases).
 
 ## Contribution
 
 Please make sure to read the [Contributing Guide](.github/CONTRIBUTING.md), before making a pull
 request, start a discussion or report a issue.
 
-Thanks to all [contributors](https://github.com/josantonius/php-session/graphs/contributors)! :heart:
+Thanks to all [contributors](https://github.com/pixxelfactory/session/graphs/contributors)! :heart:
 
 ## Sponsor
 
 If this project helps you to reduce your development time,
-[you can sponsor me](https://github.com/josantonius#sponsor) to support my open source work :blush:
+[you can sponsor Josantonius](https://github.com/josantonius#sponsor) to support my open source work :blush:
 
 ## License
 
