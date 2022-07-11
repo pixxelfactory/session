@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Josantonius\Session\Tests;
+namespace Pixxel\Tests;
 
-use Josantonius\Session\Exceptions\SessionException;
-use Josantonius\Session\Session;
-use Josantonius\Session\Facades\Session as SessionFacade;
+use Pixxel\Exceptions\SessionException;
+use Pixxel\Session;
+use Pixxel\Facades\Session as SessionFacade;
 use PHPUnit\Framework\TestCase;
 
 class RemoveMethodTest extends TestCase

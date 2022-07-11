@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Josantonius\Session\Facades;
+namespace Pixxel\Facades;
 
-use Josantonius\Session\Exceptions\SessionException;
-use Josantonius\Session\Session as SessionInstance;
+use Pixxel\Exceptions\SessionException;
+use Pixxel\Session as SessionInstance;
 
 /**
  * Session handler.

@@ -1,5 +1,5 @@
 {
-    "name": "josantonius/session",
+    "name": "pixxel/session",
     "description": "PHP library for handling sessions.",
     "license": "MIT",
     "type": "library",
@@ -13,12 +13,18 @@
             "email": "hello@josantonius.dev",
             "homepage": "https://josantonius.dev",
             "role": "Developer"
+        },
+        {
+            "name": "Pixxelfactory",
+            "email": "box@pixxelfactory.net",
+            "homepage": "https://www.pixxelfactory.net",
+            "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/josantonius/php-session/issues",
-        "source": "https://github.com/josantonius/php-session",
-        "discussions": "https://github.com/josantonius/php-session/discussions"
+        "issues": "https://github.com/pixxel/session/issues",
+        "source": "https://github.com/pixxel/session",
+        "discussions": "https://github.com/pixxel/session/discussions"
     },
     "require": {
         "php": "^8.0"
@@ -31,12 +37,12 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Josantonius\\Session\\": "src/"
+            "Pixxel\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Josantonius\\Session\\Tests\\": "tests/"
+            "Pixxel\\Tests\\": "tests/"
         }
     },
     "config": {

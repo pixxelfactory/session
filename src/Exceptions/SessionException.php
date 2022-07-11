@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Josantonius\Session\Exceptions;
+namespace Pixxel\Exceptions;
 
 /**
  * You can use an exception and error handler with this library.
