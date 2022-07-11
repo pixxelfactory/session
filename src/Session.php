@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Josantonius\Session;
+namespace Pixxel;
 
-use Josantonius\Session\Exceptions\SessionException;
+use Pixxel\Exceptions\SessionException;
 
 /**
  * Session handler.
